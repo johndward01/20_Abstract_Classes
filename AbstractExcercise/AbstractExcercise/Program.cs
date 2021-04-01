@@ -8,7 +8,7 @@ namespace AbstractExcercise
     {
         static void Main(string[] args)
         {
-            CarLot lot = new CarLot();
+            
             var list = new List<Vehicle>();
 
             // 1st instance
@@ -36,18 +36,29 @@ namespace AbstractExcercise
                 Model = "Ninja"
             };
 
-            hayabusa.Drive();
-            civic.Drive();
+            
+
+
+            list.Add(hayabusa);
+            list.Add(civic);
+            list.Add(ford);
+            list.Add(ninja);
+
+            foreach (var vehicle in list)
+            {
+                Console.WriteLine($"Year: {vehicle.Year}\n" +
+                                  $"Make: {vehicle.Make}\n" +
+                                  $"Model: {vehicle.Model}");
+                Console.WriteLine();
+            }
 
             Console.WriteLine();
 
-            lot.List.Add(hayabusa);
-            lot.List.Add(civic);
-            lot.List.Add(ford);
-            lot.List.Add(ninja);
+            hayabusa.DriveAbstract();
+            civic.DriveAbstract();
+            civic.DriveVirtual();
+            hayabusa.DriveVirtual();
 
-
-            lot.PrintCarList();
 
             #region List of TODO's
             /*
@@ -66,6 +77,7 @@ namespace AbstractExcercise
             */
 
             // Create a list of Vehicle called vehicles
+
 
             /*
             * Create 4 instances: 1 Car, 1 Motorcycle, and then 2 instances of type Vehicle (use explicit typing) but use constuctors from derived classes

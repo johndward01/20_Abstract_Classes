@@ -6,24 +6,17 @@ namespace AbstractExcercise
 {
     public class Motorcycle : Vehicle
     {
-        
-        public int Wheels { get; set; }
-        public int Doors { get; set; }
+        public bool HasSideCart { get; set; }
+        public int MotorcycleID { get; set; }
 
-
-        public Motorcycle()
-        {            
-            Wheels = 2;
-            Doors = 0;
-        }
-        public override void Drive()
+        public override void DriveAbstract()
         {
-            Console.WriteLine($"A motorcycle drives with {Wheels} wheels and has {Doors} doors.");
+            Console.WriteLine($"A motorcycle drives with 2 wheels and has no doors.");
         }
 
-        public override void Shift()
+        public override void DriveVirtual()
         {
-            Console.WriteLine("Manual Shift");
+            Console.WriteLine("Overriding the DriveVirtual implementation");
         }
     }
 }

@@ -6,19 +6,12 @@ namespace AbstractExcercise
 {
     public class Car : Vehicle
     {
-        
-        public int Wheels { get; set; }
-        public int Doors { get; set; }
+        public bool HasTrunk { get; set; }
+        public int CarID { get; set; }
 
-        public Car()
+        public override void DriveAbstract()
         {
-            Wheels = 4;
-            Doors = 4;
-        }
-
-        public override void Drive()
-        {
-            Console.WriteLine($"A car drives with {Wheels} wheels and has {Doors} doors.");
+            Console.WriteLine($"A car drives with 4 wheels and has 2 or 4 doors.");
         }
 
        
