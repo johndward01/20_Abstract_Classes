@@ -1,0 +1,14 @@
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.csproj.AssemblyReference.cache
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.AssemblyInfoInputs.cache
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.AssemblyInfo.cs
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.csproj.CoreCompileInputs.cache
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\bin\Debug\netcoreapp3.1\Abstract_Demo.exe
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\bin\Debug\netcoreapp3.1\Abstract_Demo.deps.json
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\bin\Debug\netcoreapp3.1\Abstract_Demo.runtimeconfig.json
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\bin\Debug\netcoreapp3.1\Abstract_Demo.runtimeconfig.dev.json
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\bin\Debug\netcoreapp3.1\Abstract_Demo.dll
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\bin\Debug\netcoreapp3.1\Abstract_Demo.pdb
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.dll
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.pdb
+C:\Users\johnd\Desktop\Repo\20_C#_Abstract_Classes\Abstract_Demo\Abstract_Demo\obj\Debug\netcoreapp3.1\Abstract_Demo.genruntimeconfig.cache

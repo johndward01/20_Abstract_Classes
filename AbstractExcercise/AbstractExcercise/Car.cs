@@ -5,23 +5,20 @@ using System.Text;
 namespace AbstractExcercise
 {
     public class Car : Vehicle
-    {
-        
-        public int Wheels { get; set; }
+    {        
+        public double FuelTank { get; set; }
         public int Doors { get; set; }
+               
 
-        public Car()
+        public override void DriveAbstract()
         {
-            Wheels = 4;
-            Doors = 4;
+            Console.WriteLine($"This car's tank holds {FuelTank} gallons and has {Doors} doors.");
         }
 
-        public override void Drive()
+        public override void DriveVirtual()
         {
-            Console.WriteLine($"A car drives with {Wheels} wheels and has {Doors} doors.");
+            Console.WriteLine($"I'm driving a {GetType().Name} in a virtual method, it is a {GetType().BaseType.Name}");
         }
-
-       
 
     }
 }

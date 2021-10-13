@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Abstract_Demo
 {
-    class Circle : Shape
+    public class Circle : Shape
     {
         public override string Name { get; set; } = "Circle";
         public override int NumberOfSides { get; set; } = 0;
@@ -20,12 +20,12 @@ namespace Abstract_Demo
             return Math.PI * sides[0] * 2;
         }
 
-        public override double Volume()
+        public override double Volume(double width, double height, double length)
         {
             return 0;
         }
 
-        public override double SurfaceArea()
+        public override double SurfaceArea(int sideLength)
         {
             Console.WriteLine("Please enter the radius");
             var r = double.Parse(Console.ReadLine());

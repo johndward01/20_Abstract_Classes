@@ -8,46 +8,28 @@ namespace AbstractExcercise
     {
         static void Main(string[] args)
         {
-            CarLot lot = new CarLot();
-            var list = new List<Vehicle>();
 
-            // 1st instance
-            Car civic = new Car();
-            civic.Make = "Honda";
-            civic.Model = "Civic";
-
-            // 2nd instance 
-            Motorcycle hayabusa = new Motorcycle()
-            {
-                Make = "Kawasaki",
-                Model = "Hayabusa"
-            };
-
-            // 2 instances of Vehicle
-            Vehicle ford = new Car()
-            {
-                Make = "Ford",
-                Model = "Focus"
-            };
-
-            Vehicle ninja = new Motorcycle()
-            {
-                Make = "Kawasaki",
-                Model = "Ninja"
-            };
-
-            hayabusa.Drive();
-            civic.Drive();
-
-            Console.WriteLine();
-
-            lot.List.Add(hayabusa);
-            lot.List.Add(civic);
-            lot.List.Add(ford);
-            lot.List.Add(ninja);
+            Car s1 = new Car();
+            Vehicle v1 = new Car();
+            Vehicle v2 = new Motorcycle();
 
 
-            lot.PrintCarList();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             #region List of TODO's
             /*
@@ -81,6 +63,66 @@ namespace AbstractExcercise
             // Call each of the drive methods for one car and one motorcycle
             #endregion
 
+            var vehicles = new List<Vehicle>();
+
+            Car car1 = new Car { Make = "Honda", Model = "Civic", Year = "2000", FuelTank = 10, Doors = 2 };
+
+            Motorcycle motor1 = new Motorcycle()
+            {
+                Make = "Kawasaki",
+                Model = "Hayabusa",
+                Year = "2020",
+                Doors = 0,
+                Wheels = 2
+            };
+                        
+            Vehicle car2 = new Car()
+            {
+                Make = "Ford",
+                Model = "Focus",
+                Year = "1999"
+            };
+
+            Vehicle motor2 = new Motorcycle()
+            {
+                Make = "Kawasaki",
+                Model = "Ninja",
+                Year = "2014"
+            };
+
+            vehicles.Add(car1);
+            vehicles.Add(motor1);
+            vehicles.Add(car2);
+            vehicles.Add(motor2);            
+
+            foreach (var vehicle in vehicles)
+            {
+                // Show here that only Vehicle members are present
+                Console.WriteLine($"{vehicle.Year} {vehicle.Make} {vehicle.Model}");
+                AddSpaces(1);
+            }
+
+            AddSpaces(3);
+
+            //These methods use the GetType() to stay flexible
+            car1.DriveAbstract();
+            AddSpaces(1);
+            car1.DriveVirtual();
+            AddSpaces(1);
+            motor1.DriveAbstract();
+            AddSpaces(1);
+            motor1.DriveVirtual();
+            AddSpaces(1);
+
+        }
+
+        public static void AddSpaces(int numberOfSpaces)
+        {
+            while (numberOfSpaces != 0)
+            {
+                Console.WriteLine();
+                numberOfSpaces--;
+            }
         }
     }
 }
