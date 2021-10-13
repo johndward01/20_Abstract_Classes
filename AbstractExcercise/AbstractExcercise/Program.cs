@@ -8,33 +8,6 @@ namespace AbstractExcercise
     {
         static void Main(string[] args)
         {
-
-            Car s1 = new Car();
-            Vehicle v1 = new Car();
-            Vehicle v2 = new Motorcycle();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            hayabusa.DriveAbstract();
-            civic.DriveAbstract();
-            civic.DriveVirtual();
-            hayabusa.DriveVirtual();
-
-
             #region List of TODO's
             /*
             * Create an abstract class called Vehicle
