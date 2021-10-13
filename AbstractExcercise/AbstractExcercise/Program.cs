@@ -29,6 +29,10 @@ namespace AbstractExcercise
 
 
 
+            hayabusa.DriveAbstract();
+            civic.DriveAbstract();
+            civic.DriveVirtual();
+            hayabusa.DriveVirtual();
 
 
             #region List of TODO's
@@ -48,6 +52,7 @@ namespace AbstractExcercise
             */
 
             // Create a list of Vehicle called vehicles
+
 
             /*
             * Create 4 instances: 1 Car, 1 Motorcycle, and then 2 instances of type Vehicle (use explicit typing) but use constuctors from derived classes
